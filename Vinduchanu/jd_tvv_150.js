@@ -1,0 +1,1 @@
+[{"id":"bd65d0a.6600d3","type":"function","z":"e0768983.2c8f98","name":"CONFIG","func":"var config;\n\nconfig = {\n    'scale':'avto1',\n    'deltaWeight':250,\n    'sizeOfArrayOfWeights':5,\n    'inaccuracy':60\n}\n \nflow.set('config',config);\n\nreturn msg;","outputs":1,"noerr":0,"x":360,"y":80,"wires":[["9ff61f13.ca8a5"]]}]
